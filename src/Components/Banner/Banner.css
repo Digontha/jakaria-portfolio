@@ -1,0 +1,21 @@
+/* Banner.css */
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.floating-text {
+    animation: floatAnimation 2s infinite ease-in-out;
+}
+
+.floating-image {
+    animation: floatAnimation 2s infinite ease-in-out alternate;
+}

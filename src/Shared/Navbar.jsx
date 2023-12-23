@@ -8,7 +8,7 @@ const Navbar = () => {
               <NavLink>Cont<span className='text-[#938000]'>act</span></NavLink>
     </div>
     return (
-        <div className="navbar bg-[#3E3C2F] text-white lg:w-2/3 mx-auto p-5 rounded-2xl">
+        <div className="navbar bg-[#3E3C2F] text-white p-5 px-20 rounded-2xl fixed z-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
