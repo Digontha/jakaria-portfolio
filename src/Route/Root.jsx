@@ -1,10 +1,14 @@
 import React from 'react';
+import Navbar from '../Shared/Navbar';
 
 const Root = () => {
     return (
-        <div>
-            Hi i am from root
-        </div>
+      <>
+      <div>
+        <Navbar></Navbar>
+      </div>
+      
+      </>
     );
 };
 
