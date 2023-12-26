@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const navLinks=<div className='font-mono  font-bold lg:text-[25px] flex flex-col lg:flex-row lg:gap-10'>
-              <NavLink>Ho<span className='text-[#938000]'>me</span></NavLink>
-              <NavLink>Abo<span className='text-[#938000]'>ut</span></NavLink>
-              <NavLink>Cont<span className='text-[#938000]'>act</span></NavLink>
+              <NavLink to="/">Ho<span className='text-[#938000]'>me</span></NavLink>
+              <NavLink to="/about">Abo<span className='text-[#938000]'>ut</span></NavLink>
+              <NavLink to="/contact">Cont<span className='text-[#938000]'>act</span></NavLink>
     </div>
     return (
         <div className="navbar bg-[#3E3C2F] text-white p-5 lg:px-20 rounded-2xl fixed z-10">
